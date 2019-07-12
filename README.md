@@ -30,4 +30,17 @@ nested structure with hashes and arrays like this: `{ 'grandpa' =>
 a phrase in that line using a regex match, include line numbers.
 Example of usage: `./simplegrep.rb loremipsum.txt "int[a-z]ger"`
 
+## Day 3: Serious Change (2019-07-12)
+
+### To remember
+
+- n/a
+
+### Created code
+
+- `csvrow.rb`: modified csv sample application to support an
+`each` method to return CsvRow object using `methon_missing` at
+CsvRow to return the value for column for a given heading.
+
+
 (eof)

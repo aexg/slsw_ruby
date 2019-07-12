@@ -1,0 +1,5 @@
+username,name,login,logoff
+priest,John Smith,2019-07-12 20:20,2019-07-12 23:23
+mage,Anna Johnsson,2019-07-12 15:31,2019-07-12 18:00
+fighter,Maria Smith,2019-07-12 22:33,2019-07-12 23:59
+bard,Peter Johnsson,2019-07-12 19:14,2019-07-12 19:15
