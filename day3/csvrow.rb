@@ -53,7 +53,8 @@ class RubyCsv < ActsAsCsv
 end
   
 m = RubyCsv.new
-puts m.headers.inspect
-puts m.csv_contents.inspect
-m.each { |row| puts row.username }
+print 'available columns: '
+m.headers.each { |x| print x, "\t" }
+puts
+m.each { |row| puts row.send(ARGV[0]) }
 
